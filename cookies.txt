@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.jeunes-democrates.org	TRUE	/	FALSE	1999999999	SESS70ef1406ce3258339b1e6e19a15a1155	deleted
+

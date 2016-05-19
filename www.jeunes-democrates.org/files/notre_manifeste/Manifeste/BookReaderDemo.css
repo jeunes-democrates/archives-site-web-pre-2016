@@ -1,0 +1,197 @@
+/*
+ * Custom overrides for BookReader Demo.
+ */
+
+#BRtoolbar {/*menu haut*/
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 40px;
+    padding: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #2b2b2b;/* A CHANGER */
+    -webkit-box-shadow: 0 1px 3px #999;
+    /* Shadow here on FF causes scroll bars */
+    overflow: hidden;
+}
+
+#BRcontainer {
+    top:0;
+    bottom:0;
+    width:100%;
+    z-index: 1;
+    overflow-x:auto;
+    overflow-y:hidden; 
+    overflow: hidden;
+    position:absolute;
+    background-color: #5c5d5e;/* A CHANGER */
+    _height: expression(documentElement.clientHeight);
+}
+
+#BRpageview {
+    /* XXX page view div is not being placed correctly */
+    background-color: #5c5d5e;/* A CHANGER */
+}
+
+div#BRnav {/*navigation footer*/
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    overflow: visible;
+    z-index: 100;
+    background-color: #2b2b2b;/* A CHANGER */
+    
+    -webkit-box-shadow: 1px 1px 2px #333;
+    /* No shadow for FF, to be consistent with toolbar */
+    _position:absolute;
+    _top: expression(documentElement.scrollTop + documentElement.clientHeight-this.offsetHeight); 
+}
+
+.BRnavCntl {
+    background-color: #2b2b2b;/* A CHANGER */
+    position: absolute;
+    right: 20px;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* Hide print and embed functionality */
+#BRtoolbar .embed, .print {
+    display: none;
+}
+
+.textefiche {
+  font-size: 14px;
+  font-family:  "News Gothic MT","Trebuchet MS",Geneva,Helvetica,sans-serif;
+  color: #ffffff;
+  }
+  
+#FB{
+	float:left;
+	padding-top:12px;
+}
+#PLUSONE{
+	float:left;
+	padding-top:10px;
+	margin-left:20px;
+}
+#TWITTER{
+	float:left;
+	padding-top:12px;
+	margin-left:20px;
+	margin-right:10px;
+}
+.BRicon.ENVOYER {
+	display: block;
+    float: left;
+    width: 32px;
+    height: 23px;
+    margin-top:8px;
+	margin-left:10px;
+    padding: 0;
+    vertical-align: middle;
+    border: none;
+    cursor: pointer;
+	background:url("email.html") no-repeat;
+}
+.BRicon.ACHETER{
+	display: block;
+    float: left;
+    width: 118px;
+    height: 23px;
+    margin-top:7px;
+	margin-left:20px;
+    padding: 0;
+    vertical-align: middle;
+    border: none;
+    cursor: pointer;
+	background:url("acheter.html") no-repeat;
+}
+
+.BRicon.PARTAGER{
+	display: block;
+    float: left;
+    width: 26px;
+    height: 27px;
+    margin-top:6px;
+	margin-left:5px;
+    padding: 0;
+    vertical-align: middle;
+    border: none;
+    cursor: pointer;
+	background:url("partager.html") no-repeat;
+}
+   
+.BRicon.INTEGRER{
+	display: block;
+    float: left;
+    width: 75px;
+    height: 25px;
+    margin-top:6px;
+	margin-left:5px;
+    padding: 0;
+    vertical-align: middle;
+    border: none;
+    cursor: pointer;
+	background:url("integrer.html") no-repeat;
+}
+
+.BRicon.FICHE{
+	display: block;
+    float: left;
+    width: 26px;
+    height: 27px;
+    margin-top:6px;
+	margin-left:20px;
+    padding: 0;
+    vertical-align: middle;
+    border: none;
+    cursor: pointer;
+	background:url("fiche.html") no-repeat;
+}
+
+.BRicon.VIDEO{
+	display: block;
+    float: left;
+    width: 73px;
+    height: 25px;
+    margin-top:6px;
+	margin-left:70px;
+    padding: 0;
+    vertical-align: middle;
+    border: none;
+    cursor: pointer;
+	background:url("video.html") no-repeat;
+}
+
+.BRfloat a.floatShut {position:absolute;top:0;right:0;display:block;width:32px;height:32px;background-image:url("icon_close-pop.html");background-position:0 0;background-repeat:no-repeat;}
+
+.BRicon {
+    display: block;
+    float: left;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+    border: none;
+    cursor: pointer;
+    background-color: /*transparent*/#2b2b2b;
+    background-image: url(BRicons.png);
+    background-repeat: no-repeat;
+}
+
+.BRup {
+    background-image: url("nav_control-up.png");
+    background-repeat: no-repeat;
+}
+.BRdn {
+    background-image: url("nav_control-dn.png");
+    background-repeat: no-repeat;
+}
+
+

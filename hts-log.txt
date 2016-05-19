@@ -1,0 +1,25 @@
+HTTrack3.48-22+htsswf+htsjava launched on Thu, 19 May 2016 15:54:50 at http://www.jeunes-democrates.org/ +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp +*.pdf +*.zip +*.tar +*.tgz +*.gz +*.rar +*.z +*.exe +*.mov +*.mpg +*.mpeg +*.avi +*.asf +*.mp3 +*.mp2 +*.rm +*.wav +*.vob +*.qt +*.vid +*.ac3 +*.wma +*.wmv
+(winhttrack -qiC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://www.jeunes-democrates.org/ -O1 "C:\Sites\jeunes-democrates.org" +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp +*.pdf +*.zip +*.tar +*.tgz +*.gz +*.rar +*.z +*.exe +*.mov +*.mpg +*.mpeg +*.avi +*.asf +*.mp3 +*.mp2 +*.rm +*.wav +*.vob +*.qt +*.vid +*.ac3 +*.wma +*.wmv )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:54:50	Warning: 	Cache: damaged cache, trying to repair
+15:54:50	Warning: 	Cache: 0 bytes successfully recovered in 0 entries
+15:54:50	Warning: 	Cache: error trying to open the cache
+16:09:41	Warning: 	Retry after error -2 (Receive Time Out) at link www.jeunes-democrates.org/environnement-preserve (from www.jeunes-democrates.org/)
+16:37:55	Error: 	"Not Found" (404) at link https://guepar.mouvementdemocrate.fr/Adhesion/pdf/bulletin_adhesion_modem_2014.pdf (from www.jeunes-democrates.org/rejoins-tes-idees-adhere)
+16:37:55	Error: 	"Access Denied" (403) at link https://scontent-a.xx.fbcdn.net/hphotos-prn2/p480x480/1476462_10152005641629780_1364635220_n.jpg (from www.jeunes-democrates.org/militer-avec-nous)
+16:37:55	Error: 	"Access Denied" (403) at link https://scontent-a.xx.fbcdn.net/hphotos-prn2/p480x480/1475939_10152030521219780_16035026_n.jpg (from www.jeunes-democrates.org/militer-avec-nous)
+16:41:11	Error: 	"Not Found" (404) at link www.jeunes-democrates.org/files/notre_manifeste/Manifeste/email.png (from www.jeunes-democrates.org/files/notre_manifeste/Manifeste/BookReaderDemo.css)
+16:41:11	Error: 	"Not Found" (404) at link www.jeunes-democrates.org/files/notre_manifeste/Manifeste/acheter.png (from www.jeunes-democrates.org/files/notre_manifeste/Manifeste/BookReaderDemo.css)
+16:41:11	Error: 	"Not Found" (404) at link www.jeunes-democrates.org/files/notre_manifeste/Manifeste/partager.png (from www.jeunes-democrates.org/files/notre_manifeste/Manifeste/BookReaderDemo.css)
+16:41:11	Error: 	"Not Found" (404) at link www.jeunes-democrates.org/files/notre_manifeste/Manifeste/integrer.png (from www.jeunes-democrates.org/files/notre_manifeste/Manifeste/BookReaderDemo.css)
+16:41:11	Error: 	"Not Found" (404) at link www.jeunes-democrates.org/files/notre_manifeste/Manifeste/fiche.png (from www.jeunes-democrates.org/files/notre_manifeste/Manifeste/BookReaderDemo.css)
+16:41:11	Error: 	"Not Found" (404) at link www.jeunes-democrates.org/files/notre_manifeste/Manifeste/video.png (from www.jeunes-democrates.org/files/notre_manifeste/Manifeste/BookReaderDemo.css)
+16:41:11	Error: 	"Not Found" (404) at link www.jeunes-democrates.org/files/notre_manifeste/Manifeste/icon_close-pop.png (from www.jeunes-democrates.org/files/notre_manifeste/Manifeste/BookReaderDemo.css)
+
+HTTrack Website Copier/3.48-22 mirror complete in 52 minutes 8 seconds : 494 links scanned, 482 files written (69636420 bytes overall) [64398534 bytes received at 20587 bytes/sec], 7157626 bytes transferred using HTTP compression in 325 files, ratio 23%, 5.5 requests per connection
+(10 errors, 4 warnings, 0 messages)
